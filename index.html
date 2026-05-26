@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitsubishi Destinator</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0f1117;
+  color:#fff;
+}
+
+/* NAV */
+nav {
+  position:sticky;
+  top:0;
+  background:#0f1117;
+  padding:12px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #222;
+}
+nav a {
+  color:#aaa;
+  margin-left:15px;
+  text-decoration:none;
+  font-size:14px;
+}
+nav a:hover { color:#fff; }
+
+/* HERO */
+.hero {
+  padding:60px 20px;
+  text-align:center;
+}
+.hero h1 {
+  font-size:32px;
+  margin-bottom:10px;
+}
+.hero p {
+  color:#bbb;
+  max-width:500px;
+  margin:auto;
+}
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 20px;
+  background:#ff2d2d;
+  border-radius:30px;
+  color:#fff;
+  text-decoration:none;
+}
+
+/* SECTION */
+.section {
+  padding:40px 20px;
+  max-width:900px;
+  margin:auto;
+}
+.section h2 {
+  margin-bottom:20px;
+}
+
+/* CARDS */
+.cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:15px;
+}
+.card {
+  background:#1a1d26;
+  padding:15px;
+  border-radius:12px;
+}
+.card h3 {
+  margin:0 0 8px;
+  font-size:16px;
+}
+.card p {
+  font-size:13px;
+  color:#aaa;
+}
+
+/* CTA */
+.cta {
+  text-align:center;
+  background:#1a1d26;
+  padding:40px 20px;
+  border-radius:16px;
+}
+
+/* FOOTER */
+footer {
+  text-align:center;
+  padding:20px;
+  font-size:12px;
+  color:#777;
+}
+
+/* MOBILE */
+@media(max-width:500px){
+  .hero h1 { font-size:24px; }
+}
+</style>
+<script
+src="https://fw-cdn.com/12069526/4591353.js"
+chat="true">
+</script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <strong>DESTINATOR</strong>
+  <div>
+    <a href="#features">Features</a>
+    <a href="#drive">Drive</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Confidence for Every Destination</h1>
+  <p>
+    A premium 7-seater SUV designed for family comfort, performance,
+    and confidence on every journey.
+  </p>
+
+  <a href="#contact" class="btn">Book Test Drive</a>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <h2>Why Destinator?</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>7-Seater Comfort</h3>
+      <p>Spacious 3-row cabin for family trips.</p>
+    </div>
+
+    <div class="card">
+      <h3>Turbo Engine</h3>
+      <p>1.5L turbo for smooth performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>High Ground</h3>
+      <p>Confident driving on any road.</p>
+    </div>
+
+    <div class="card">
+      <h3>Smart Tech</h3>
+      <p>Connected features & safety.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DRIVE -->
+<section class="section" id="drive">
+  <h2>Drive Modes</h2>
+
+  <div class="cards">
+    <div class="card"><h3>Normal</h3></div>
+    <div class="card"><h3>Wet</h3></div>
+    <div class="card"><h3>Gravel</h3></div>
+    <div class="card"><h3>Mud</h3></div>
+    <div class="card"><h3>Tarmac</h3></div>
+  </div>
+
+  <p style="margin-top:15px;color:#aaa">
+    Adjust your drive for any road condition with confidence.
+  </p>
+</section>
+
+<!-- CTA -->
+<section class="section" id="contact">
+  <div class="cta">
+    <h2>Ready to Experience It?</h2>
+    <p>Book your test drive today.</p>
+
+    <a href="#" class="btn">Contact Sales</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Mitsubishi Destinator - Premium Family SUV
+</footer>
+
+</body>
+</html>
